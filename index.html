@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS S3 Static Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My AWS S3 Static Website</h1>
+    </header>
+    <div class="content">
+        <h2>About Me</h2>
+        <p>Hello, my name is Gilbert Ekow Ghartey.</p>
+        <h2>My Favorite AWS Service</h2>
+        <p>My favorite AWS service so far is Amazon S3. I love S3 because it provides durable, secure, and scalable object storage that allows me to host my static websites easily.</p>
+    </div>
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-item">
+                <img src="images/kwame-nkrumah-moseluem.jpg" alt="Tourist Site 1">
+                <div class="description">
+                    <h2>Kwame Nkrumah Mausoleum</h2>
+                    <p>The Kwame Nkrumah Mausoleum in Accra, Ghana, commemorates the country's first President and independence leader.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/cape-coast-castle.jpg" alt="Tourist Site 1">
+                <div class="description">
+                    <h2>Cape Coast Castle</h2>
+                    <p>Cape Coast Castle, located in Ghana, is a poignant symbol of the transatlantic slave trade.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/elmina-castle.jpg" alt="Tourist Site 2">
+                <div class="description">
+                    <h2>Elmina Castle</h2>
+                    <p>Elmina Castle, situated along the coast of Ghana, is a historic fortress with a profound legacy.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/wli1.jpg" alt="Tourist Site 3">
+                <div class="description">
+                    <h2>Wli Waterfalls</h2>
+                    <p>Wli Waterfalls, nestled in the Volta Region of Ghana, is a breathtaking natural wonder.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="siteModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
